@@ -1,0 +1,43 @@
+{
+	"name": "regexpu-fixtures",
+	"version": "0.0.0",
+	"description": "Test cases for the regexpu project. Possibly useful for other regular expression-related test suites.",
+	"homepage": "https://mths.be/regexpu",
+	"main": "fixtures.js",
+	"keywords": [
+		"codegen",
+		"desugaring",
+		"ecmascript",
+		"es5",
+		"es6",
+		"harmony",
+		"javascript",
+		"refactoring",
+		"regex",
+		"regexp",
+		"regular expressions",
+		"rewriting",
+		"syntax",
+		"transformation",
+		"transpile",
+		"transpiler",
+		"unicode"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Mathias Bynens",
+		"url": "https://mathiasbynens.be/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathiasbynens/regexpu-fixtures.git"
+	},
+	"bugs": "https://github.com/mathiasbynens/regexpu-fixtures/issues",
+	"files": [
+		"LICENSE-MIT.txt",
+		"fixtures.js"
+	],
+	"scripts": {
+		"test": "node fixtures.js"
+	}
+}
