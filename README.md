@@ -1,4 +1,4 @@
-# regexpu-fixtures [![Build status](https://travis-ci.org/mathiasbynens/regexpu-fixtures.svg?branch=master)](https://travis-ci.org/mathiasbynens/regexpu-fixtures) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/regexpu-fixtures/master.svg)](https://coveralls.io/r/mathiasbynens/regexpu-fixtures) [![Dependency status](https://gemnasium.com/mathiasbynens/regexpu-fixtures.svg)](https://gemnasium.com/mathiasbynens/regexpu-fixtures)
+# regexpu-fixtures [![Build status](https://travis-ci.org/mathiasbynens/regexpu-fixtures.svg?branch=master)](https://travis-ci.org/mathiasbynens/regexpu-fixtures)
 
 [_regexpu_](https://mths.be/regexpu) is a source code transpiler that enables the use of ES6 Unicode regular expressions in JavaScript-of-today (ES5).
 
