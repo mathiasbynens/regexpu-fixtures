@@ -264,6 +264,12 @@ var fixtures = [
 		'pattern': '(\\1)+\\1\\1',
 		'flags': FLAGS,
 		'transpiled': '(\\1)+\\1\\1'
+	},
+	// https://github.com/mathiasbynens/regexpu-core/issues/7
+	{
+		'pattern': '\\u03B8',
+		'flags': FLAGS_WITH_UNICODE_WITH_I,
+		'transpiled': '[\\u03B8\\u03F4]'
 	}
 ];
 
