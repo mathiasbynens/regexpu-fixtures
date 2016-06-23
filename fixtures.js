@@ -85,8 +85,8 @@ var fixtures = [
 	{
 		'pattern': '\\W',
 		'flags': FLAGS_WITH_UNICODE_WITH_I,
-		// Must match U+017F, U+212A, and, surprisingly, `K` and `S`.
-		'transpiled': '(?:[\\0-/:-@KS\\[-\\^`\\{-\\uD7FF\\uE000-\\uFFFF]|[\\uD800-\\uDBFF][\\uDC00-\\uDFFF]|[\\uD800-\\uDBFF](?![\\uDC00-\\uDFFF])|(?:[^\\uD800-\\uDBFF]|^)[\\uDC00-\\uDFFF])'
+		// Must not match U+017F, U+212A, `K`, or `S` (unlike in ES6).
+		'transpiled': '(?:[\\0-/:-@\\[-\\^`\\{-\\u017E\\u0180-\\u2129\\u212B-\\uD7FF\\uE000-\\uFFFF]|[\\uD800-\\uDBFF][\\uDC00-\\uDFFF]|[\\uD800-\\uDBFF](?![\\uDC00-\\uDFFF])|(?:[^\\uD800-\\uDBFF]|^)[\\uDC00-\\uDFFF])'
 	},
 	{
 		'pattern': '[\\w\\W]',
