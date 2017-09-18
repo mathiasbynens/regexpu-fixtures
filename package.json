@@ -1,6 +1,6 @@
 {
 	"name": "regexpu-fixtures",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"description": "Test cases for the regexpu project. Possibly useful for other regular expression-related test suites.",
 	"homepage": "https://mths.be/regexpu",
 	"main": "fixtures.js",
