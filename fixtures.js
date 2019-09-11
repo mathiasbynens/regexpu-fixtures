@@ -9,7 +9,7 @@ var fixtures = [
 	{
 		'pattern': '.',
 		'flags': FLAGS_WITHOUT_UNICODE,
-		'transpiled': '[\\0-\\t\\x0B\\f\\x0E-\\u2027\\u202A-\\uFFFF]'
+		'transpiled': '.'
 	},
 	{
 		'pattern': '.',
