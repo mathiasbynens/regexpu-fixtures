@@ -176,12 +176,12 @@ var fixtures = [
 	{
 		'pattern': '[^a]',
 		'flags': FLAGS_WITHOUT_UNICODE,
-		'transpiled': '[\\0-`b-\\uFFFF]'
+		'transpiled': '(?:(?!a)[\\s\\S])'
 	},
 	{
 		'pattern': '[^a]',
 		'flags': FLAGS_WITH_UNICODE,
-		'transpiled': '(?:[\\0-`b-\\uD7FF\\uE000-\\uFFFF]|[\\uD800-\\uDBFF][\\uDC00-\\uDFFF]|[\\uD800-\\uDBFF](?![\\uDC00-\\uDFFF])|(?:[^\\uD800-\\uDBFF]|^)[\\uDC00-\\uDFFF])'
+		'transpiled': '(?:(?!a)[\\s\\S])'
 	},
 	{
 		'pattern': '[ab]+',
